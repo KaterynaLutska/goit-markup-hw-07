@@ -255,6 +255,41 @@ summary {
   display: list-item;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Roboto/Roboto-Black.ttf") format("woff2"), url("../../Roboto/Roboto-Black.ttf") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Roboto/Roboto-Bold.ttf") format("woff2"), url("../..Roboto/Roboto-Bold.ttf") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Roboto/Roboto-Medium.ttf") format("woff2"), url("../../Roboto/Roboto-Medium.ttf") format("woff");
+  font-weight: 750;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Roboto/Roboto-Regular.ttf") format("woff2"), url("../../Roboto/Roboto-Regular.ttf") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../../Raleway/Raleway-VariableFont_wght.ttf") format("woff2"), url("../../Raleway/Raleway-VariableFont_wght.ttf") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
 .list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -441,6 +476,11 @@ button {
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-close {
+  width: 11px;
+  height: 11px;
 }
 
 .address {
@@ -872,5 +912,40 @@ footer {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Roboto/Roboto-Black.ttf") format("woff2"), url("../../Roboto/Roboto-Black.ttf") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Roboto/Roboto-Bold.ttf") format("woff2"), url("../..Roboto/Roboto-Bold.ttf") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Roboto/Roboto-Medium.ttf") format("woff2"), url("../../Roboto/Roboto-Medium.ttf") format("woff");
+  font-weight: 750;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Roboto/Roboto-Regular.ttf") format("woff2"), url("../../Roboto/Roboto-Regular.ttf") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../../Raleway/Raleway-VariableFont_wght.ttf") format("woff2"), url("../../Raleway/Raleway-VariableFont_wght.ttf") format("woff");
+  font-weight: 700;
+  font-style: normal;
 }
 /*# sourceMappingURL=portfolio.css.map */

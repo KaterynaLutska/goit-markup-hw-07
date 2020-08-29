@@ -15,23 +15,34 @@
   border-radius: 4px;
 }
 
-.backdrop {
-  position: fixed;
-
+.modal-items {
+  position: relative;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  margin-bottom: 10px;
 
-  background-color: rgba(0, 0, 0, 0.2);
+  @include font(400, 12px, 0.03em, Roboto);
+  line-height: 1.16;
+
+  & > label {
+    margin-bottom: 4px;
+  }
+
+  &last {
+    margin-bottom: 0;
+  }
 }
 
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-}
+.modal-heder {
+  @include font(700, 20px, 0.03em, Roboto);
+  line-height: 1.15;
+  text-align: center;
 
-.close {
-  width: 11px;
-  height: 11px;
+  margin-bottom: 12px;
+  color: $title-text-color;
+
+  &-label {
+    display: inline-block;
+    margin-bottom: 4px;
+  }
 }

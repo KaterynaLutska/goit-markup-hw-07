@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    />
+    /> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
@@ -504,7 +504,7 @@
         <form class="js-speaker-form" autocomplete="off" method="post">
           <h3 class="modal-heder">Оставьте свои данные, мы вам перезвоним</h3>
           <div class="modal-items">
-            <label class="label-heder" for="name">Имя</label>
+            <label class="modal-heder-label" for="name">Имя</label>
             <div class="modal-wrap">
               <input
                 class="form"
@@ -515,13 +515,13 @@
                 pattern="^[А-Яа-яЁё\s]+$"
                 required
               />
-              <svg class="svg-modal">
+              <svg class="svg-modal" width="16">
                 <use href="./images/sprite.svg#icon-icon-n"></use>
               </svg>
             </div>
           </div>
           <div class="modal-items">
-            <label class="label-heder" for="telephone">Телефон </label>
+            <label class="modal-heder-label" for="telephone">Телефон </label>
             <div class="modal-wrap">
               <input
                 class="form"
@@ -532,13 +532,13 @@
                 pattern="[0-9]{10}"
                 required
               />
-              <svg class="svg-modal">
+              <svg class="svg-modal" width="16">
                 <use href="./images/sprite.svg#icon-phone-black"></use>
               </svg>
             </div>
           </div>
           <div class="modal-items">
-            <label class="label-heder" for="email">Почта</label>
+            <label class="modal-heder-label" for="email">Почта</label>
             <div class="modal-wrap">
               <input
                 class="form"
@@ -548,13 +548,13 @@
                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                 required
               />
-              <svg class="svg-modal">
+              <svg class="svg-modal" width="16">
                 <use href="./images/sprite.svg#icon-e-mail"></use>
               </svg>
             </div>
           </div>
           <div class="modal-items last">
-            <label class="label-heder" for="comments">Комментарий</label>
+            <label class="modal-heder-label" for="comments">Комментарий</label>
             <textarea
               class="textarea-comments"
               name="comments"
@@ -578,7 +578,7 @@
           </div>
         </form>
         <button data-modal-close class="button-modal">
-          <svg class="close">
+          <svg class="btn-close">
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>

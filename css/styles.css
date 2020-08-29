@@ -646,7 +646,7 @@ a:focus .icon-partner {
   width: 11px;
   height: 11px;
 } */
-
+/* 
 textarea::placeholder {
   font-size: 12px;
   line-height: 1.16;
@@ -659,8 +659,8 @@ textarea {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-}
-
+} */
+/* 
 .modal-heder {
   font-weight: bold;
   font-size: 20px;
@@ -675,9 +675,9 @@ textarea {
 .label-heder {
   display: inline-block;
   margin-bottom: 4px;
-}
+} */
 
-.form {
+/* .form {
   width: 100%;
   height: 40px;
   padding-left: 40px;
@@ -697,9 +697,9 @@ textarea {
   fill: var(--accent-color);
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--timing-function);
-}
+} */
 
-.modal-items {
+/* .modal-items {
   position: relative;
   top: 0;
   left: 0;
@@ -716,9 +716,9 @@ textarea {
 .options {
   margin-top: 20px;
   margin-bottom: 30px;
-}
+} */
 
-.modal-items.last {
+/* .modal-items.last {
   margin-bottom: 0;
 }
 .modal-items > label {
@@ -743,9 +743,9 @@ textarea {
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
-}
+} */
 
-input {
+/* input {
   margin: 0;
   padding: 0;
 }
@@ -768,9 +768,9 @@ textarea:focus {
 .js-speaker-form {
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
-.modal-wrap {
+/* .modal-wrap {
   position: relative;
 }
 
@@ -792,9 +792,9 @@ textarea:focus {
   display: inline-block;
   color: var(--accent-color);
   text-decoration: underline;
-}
+} */
 
-.check-input {
+/* .check-input {
   position: absolute;
   appearance: none;
   -webkit-appearance: none;
@@ -813,11 +813,11 @@ textarea:focus {
   height: 15px;
   border: 2px solid #212121;
   border-radius: 4px;
-}
+} */
 
-.check-input:checked + .check-icon {
+/* .check-input:checked + .check-icon {
   border-style: none;
   background-image: url(../images/iconcheck_1.svg);
   background-size: contain;
   background-color: var(--accent-color);
-}
+} */
