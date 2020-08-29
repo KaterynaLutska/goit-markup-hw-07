@@ -8,17 +8,22 @@
 .card-animation {
   position: relative;
   overflow: hidden;
+}
 
-  &-overlay {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    padding: 63px 24px;
+.card-animation-overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 63px 24px;
 
-    width: 100%;
-    height: 100%;
-    background: $accent-color;
-    transition-duration: $transition-duration;
-    transition-timing-function: $timing-function;
-  }
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 150, 243, 0.9);
+  transition-duration: $transition-duration;
+  transition-timing-function: $timing-function;
+}
+
+.card-item-link:hover .card-animation-overlay,
+.card-item-link:focus .card-animation-overlay {
+  transform: translateY(-100%);
 }
