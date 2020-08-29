@@ -36,30 +36,30 @@ button {
     background-color: $primary-bg-color;
   }
 
-  &:hover .send,
-  &:focus .send {
+  &:hover .form-footer-button-icon,
+  &:focus .form-footer-button-icon {
     fill: $accent-color;
     transition-duration: $transition-duration;
     transition-timing-function: $timing-function;
   }
 }
 
-.send {
-  fill: white;
-  margin-left: 10px;
-  width: 24px;
-  height: 24px;
-
-  transition-duration: $transition-duration;
-  transition-timing-function: $timing-function;
-}
-
-.btn-join {
+.form-footer-button {
   display: flex;
   align-items: center;
   padding: 10px 28px 10px 29px;
   height: 50px;
   width: 200px;
+
+  &-icon {
+    fill: white;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+
+    transition-duration: $transition-duration;
+    transition-timing-function: $timing-function;
+  }
 }
 
 .button-modal {
