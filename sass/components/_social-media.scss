@@ -2,9 +2,7 @@
   width: 206px;
 
   &-link {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    @include centerFlex;
     width: 44px;
     height: 44px;
     fill: #afb1b8;
@@ -13,8 +11,13 @@
     transition-property: fill, background;
     transition-duration: $transition-duration, $transition-duration;
     transition-timing-function: $timing-function, $timing-function;
-  }
 
+    &:focus,
+    &:hover {
+      fill: white;
+      background: $accent-color;
+    }
+  }
   &-icon {
     display: block;
     width: 20px;
@@ -29,12 +32,6 @@
   &:last-child {
     margin-right: 0;
   }
-}
-
-.social-media-link:focus,
-.social-media-link:hover {
-  fill: white;
-  background: $accent-color;
 }
 
 .footer {

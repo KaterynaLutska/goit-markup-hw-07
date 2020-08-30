@@ -1,6 +1,6 @@
 .card-text {
   display: block;
-  @include font(400, 18px, 0.03em, Roboto);
+  @include font(400, 18px, 0.03em, $font-family);
   line-height: 1.55;
   color: #ffffff;
 }

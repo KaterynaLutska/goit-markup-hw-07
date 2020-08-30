@@ -22,7 +22,7 @@ footer {
   display: block;
   margin-bottom: 20px;
 
-  @include font(700, 14px, 0.03em, Roboto);
+  @include font(700, 14px, 0.03em, $font-family);
   line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;

@@ -21,7 +21,7 @@
 .hero-title {
   margin-bottom: 30px;
 
-  @include font(900, 44px, 0.06em, Roboto);
+  @include font(900, 44px, 0.06em, $font-family);
   line-height: 1.36;
   text-transform: uppercase;
   color: #ffffff;
