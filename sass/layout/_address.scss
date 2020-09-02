@@ -11,7 +11,7 @@
   }
 
   .address-items-link {
-    @include font(500, 14px, 0.02em, $font-family);
+    @include font(500, 14px, 0.02em, $primary-font-family);
     line-height: 1.14;
     transition-property: color;
     transition-duration: $transition-duration;
@@ -55,7 +55,7 @@
   &-telephone {
     margin-bottom: 9px;
 
-    @include font(400, 14px, 0.03em, $font-family);
+    @include font(400, 14px, 0.03em, $primary-font-family);
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
 

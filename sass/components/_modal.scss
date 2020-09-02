@@ -21,7 +21,7 @@
   left: 0;
   margin-bottom: 10px;
 
-  @include font(400, 12px, 0.03em, $font-family);
+  @include font(400, 12px, 0.03em, $primary-font-family);
   line-height: 1.16;
 
   & > label {
@@ -34,7 +34,7 @@
 }
 
 .modal-heder {
-  @include font(700, 20px, 0.03em, $font-family);
+  @include font(700, 20px, 0.03em, $primary-font-family);
   line-height: 1.15;
   text-align: center;
 

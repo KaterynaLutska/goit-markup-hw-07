@@ -2,7 +2,7 @@
   display: flex;
   margin-right: auto;
 
-  @include font(500, 14px, 0.02em, $font-family);
+  @include font(500, 14px, 0.02em, $primary-font-family);
   line-height: 1.14;
 }
 

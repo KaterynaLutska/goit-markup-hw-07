@@ -1,5 +1,5 @@
 .logo {
-  @include font(700, 26px, 0.03em, Raleway);
+  @include font(700, 26px, 0.03em, $secondary-font-family);
 
   line-height: 1.19;
   color: #000000;

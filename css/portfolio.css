@@ -333,7 +333,7 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   line-height: 1.16;
 }
 
@@ -378,7 +378,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   line-height: 1.19;
   color: #000000;
 }
@@ -402,7 +402,7 @@ button {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   line-height: 1.625;
   border-width: 0px;
   border-style: none;
@@ -509,7 +509,7 @@ button {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   line-height: 1.14;
   -webkit-transition-property: color;
   transition-property: color;
@@ -562,7 +562,7 @@ button {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   -webkit-transition-property: color;
@@ -589,7 +589,7 @@ button {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   line-height: 1.14;
 }
 
@@ -740,34 +740,10 @@ footer {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.form-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.form-footer input {
-  margin-right: 12px;
-  padding: 15px 0 14px 15px;
-  width: 358px;
-  height: 50px;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  font-family: Roboto;
-  line-height: 1.25;
-  color: rgba(255, 255, 255, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  -webkit-box-shadow: 0px, 4px, 4px, rgba(0, 0, 0, 0.15);
-          box-shadow: 0px, 4px, 4px, rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  background-color: #2f303a;
 }
 
 .portfolio-container {
@@ -859,7 +835,7 @@ footer {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.06em;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   line-height: 3;
   color: #212121;
 }
@@ -868,7 +844,7 @@ footer {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.03em;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   line-height: 1.875;
   color: #757575;
 }
@@ -885,7 +861,7 @@ footer {
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0.03em;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   line-height: 1.55;
   color: #ffffff;
 }

@@ -24,12 +24,12 @@
 }
 
 .card-title {
-  @include font(700, 18px, 0.06em, $font-famil);
+  @include font(700, 18px, 0.06em, $primary-font-family);
   line-height: 3;
   color: #212121;
 
   &-second {
-    @include font(400, 16px, 0.03em, $font-famil);
+    @include font(400, 16px, 0.03em, $primary-font-family);
     line-height: 1.875;
     color: #757575;
   }
